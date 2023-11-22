@@ -8,9 +8,9 @@ async function suraj(){
 }
 
 var x=suraj();
+x.then((data)=> console.log(data));
 console.log(x);
 console.log("end");
-
 
 
 // PS D:\@mern\javascript-revision> node asynCheck2
@@ -18,3 +18,4 @@ console.log("end");
 // middle1
 // Promise { 'middle2' }
 // end
+// middle2
