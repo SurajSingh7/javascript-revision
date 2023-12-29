@@ -1,0 +1,32 @@
+// node q3.js
+
+var n=5;
+for(let i=1;i<=n;i++){
+    var p=pattern(i,n);
+    console.log(p);
+}
+
+function pattern (i,n,x){
+     var str="";
+    for(let j=1;j<=n;j++){
+        if(j>=i)   
+         str+="*";
+        else
+         str+=" "
+    }
+    return str;
+
+}
+
+
+// output
+
+/*
+PS D:\@mern\javascript-revision\basicCoding\pattern> node q3.js
+*****
+ ****
+  ***
+   **
+    *
+*/
+

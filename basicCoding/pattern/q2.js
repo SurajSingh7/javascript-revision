@@ -1,4 +1,4 @@
-// node q1.js
+// node q2.js
 
 var n=5;
 var x=n-1;
@@ -9,13 +9,13 @@ for(let i=1;i<=n;i++){
 }
 
 
-function pattern (i,n){
+function pattern (i,n,x){
      var str="";
     for(let j=1;j<=n;j++){
-        if(j<=i)
-         str+="*";
+        if(j<=n-i)   // (j<=x)
+         str+=" ";
         else
-         str+=" "
+         str+="*"
     }
     return str;
 
@@ -23,4 +23,14 @@ function pattern (i,n){
 
 
 // output
+
+/*
+PS D:\@mern\javascript-revision\basicCoding\pattern>  node q2.js
+    *
+   **
+  ***
+ ****
+*****
+
+*/
 
