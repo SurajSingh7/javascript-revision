@@ -1,0 +1,27 @@
+.c{
+    background-color: green;
+
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+   
+  
+}
+.b{
+    background-color: red;
+ 
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+  
+   
+}
+.a{
+    background-color: yellow;
+
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+   
+ 
+}

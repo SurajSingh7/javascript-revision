@@ -1,0 +1,29 @@
+.parent{
+    background-color: beige;
+    border: 3px solid black;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: 420px;
+    justify-content: start;
+    /* align-items: start; */
+    align-content: start;
+}
+.child{
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    margin: 5px;
+}
+.c1{
+    background-color: aquamarine;
+}
+.c2{
+    background-color: pink;
+}
+.c3{
+    background-color: yellow;
+}
+.c4{
+    background-color: orange;
+}
